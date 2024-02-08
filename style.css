@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: black;
+}
+.main {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+}
+.info {
+    padding: 10px;
+    border: 5px solid darkgray;
+    color: silver;
+    font-size: 25px;
+}
+.gen {
+    margin: 10px;
+}
+.velosity {
+    margin: 10px;
+}
+.game {
+    display: block;
+    border: 5px solid darkgray;
+}
